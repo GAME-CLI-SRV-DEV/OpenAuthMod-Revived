@@ -13,6 +13,7 @@ This mod provides an easy and secure interface for proxies to authenticate to an
 **When using this mod, your session or private keys WILL NOT be sent to the server at any point. Everything is done clientside and with your confirmation.**
 
 ## Compatibility
+* GeyserMC
 * Fabric 1.14 - 1.19.3
 * Forge 1.14 - 1.19.3
 * Forge 1.8 - 1.12.2
