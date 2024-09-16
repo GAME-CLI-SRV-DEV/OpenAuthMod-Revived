@@ -3,9 +3,6 @@ plugins {
     id 'java'
 }
 
-group 'org.geyser.extension.exampleid'
-version '1.0.0'
-
 repositories {
     maven {
         url 'https://repo.opencollab.dev/maven-snapshots'
@@ -25,7 +22,8 @@ repositories {
 
 dependencies {
     // Geyser API - needed for all extensions
-    compileOnly 'org.geysermc.geyser:api:2.3.2-SNAPSHOT'
+    compileOnly 'org.geysermc.geyser:api:2.4.2-SNAPSHOT'
+    implementation project(':shared-geyser')
 
     // Include other dependencies here - e.g. for configuration.
 }
