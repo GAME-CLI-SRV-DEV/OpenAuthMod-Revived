@@ -23,7 +23,7 @@ repositories {
 dependencies {
     // Geyser API - needed for all extensions
     compileOnly 'org.geysermc.geyser:api:2.4.2-SNAPSHOT'
-    implementation project(':shared-geyser')
+    implementation project(':shared-geysermc')
 
     // Include other dependencies here - e.g. for configuration.
 }
